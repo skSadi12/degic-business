@@ -45,6 +45,10 @@ function HpNavbar() {
             
             <Drawer anchor='left' open={open} onClose={() => setOpen(false)}>
                 <List>
+                  <ListItem>
+                  <img src="/logo1.png" alt="Logo" style={{ height: '40px', width: 'auto' }} />
+
+                  </ListItem>
                     {menuItems.map((item) => (
                         <ListItem key={item} onClick={() => setOpen(false)}>
                             <ListItemButton>
