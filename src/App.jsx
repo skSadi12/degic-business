@@ -6,6 +6,7 @@ import NavBar from './component/Navbar'
 import Hero from './component/Hero'
 import Presentation from './component/Presentation'
 import Slider from './component/Slider'
+import Vedio from './component/vedio'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Hero/>
       <Presentation/>
       <Slider/>
+      <Vedio/>
 
     </>
   )
