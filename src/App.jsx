@@ -8,6 +8,8 @@ import Presentation from './component/Presentation'
 import Slider from './component/Slider'
 import Vedio from './component/vedio'
 import Time from './component/time'
+import BoomArea from './component/BoomArea'
+import Blogs from './component/blogs'
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
       <Slider/>
       <Vedio/>
       <Time/>
+      <BoomArea/>
+      <Blogs/>
 
     </>
   )
