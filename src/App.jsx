@@ -10,6 +10,7 @@ import Vedio from './component/vedio'
 import Time from './component/time'
 import BoomArea from './component/BoomArea'
 import Blogs from './component/blogs'
+import Fotter from './component/Fotter'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Time/>
       <BoomArea/>
       <Blogs/>
+      <Fotter/>
 
     </>
   )
